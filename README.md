@@ -9,16 +9,16 @@ Personally speaking, we both like music, especially Taylor Swift's emotional exp
 
 # Project Plan
 ## Data Preparation
-Our input data will be text (lyrics of songs) paired with emotion labels. We have two data set: 
+Our input data is text (lyrics of songs) paired with emotion label/labels. We have following data sets:
 
 | Data set | Content | URL |
 | ------------- | ------------- | ------------- |
-| SingleLabel | Lyrics paired with a single label | ------------- |
-| MultiLabel  | Lyrics paired with multiple labels  | ------------- |
+| SingleLabel | Lyrics paired with a single label | [SingleLabel.csv](https://github.com/glazar01/UZH-essentials-project/blob/310d0532aebf24bc25d1994f599cf1cea6286d8b/data/SingleLabel.csv)|
+| MultiLabel  | Lyrics paired with multiple labels  | [MultiLabel.csv](https://github.com/glazar01/UZH-essentials-project/blob/310d0532aebf24bc25d1994f599cf1cea6286d8b/data/MultiLabel.csv)|
 
-with the following possible labels: 'activation', 'amazement', 'calmness', 'joyful', 'nostalgia', 'power', 'sadness', 'solemnity', 'tenderness', and 'tension'.
+Emotion Labels: 'activation', 'amazement', 'calmness', 'joyful', 'nostalgia', 'power', 'sadness', 'solemnity', 'tenderness', and 'tension'.
 
-The idea is to label more manually or by counting some keywords. 
+The idea is to label more lyrics manually or by counting some keywords. 
 
 ## Model and Goal
 Overall, this is a classification problem. We want to train and test different models and compare them. We can also try to use some existing models (e.g. the [NLKT's Vader Sentiment analyzer](https://www.nltk.org/_modules/nltk/sentiment/vader.html)) on our input data sets. Something extra is to provide some visualizations using word cloud showing to the users the preferences of a singer.
