@@ -1,4 +1,4 @@
-# Lyric Pylse: Mapping Sentiments in Music Lyrics
+# Lyric Pulse: Mapping Sentiments in Music Lyrics
 A Sentiment Analysis for song lyrics
 
 # Summary
