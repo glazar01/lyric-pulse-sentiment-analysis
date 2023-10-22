@@ -1,5 +1,5 @@
 # Lyric Pulse: Mapping Sentiments in Music Lyrics
-A Sentiment Analysis for song lyrics
+Testing sentiment analysis models using lyrics
 
 # Summary
 Music emotion recognition and recommendations today are changing the way people find and listen to their preferred musical tracks. Our task is to do a sentimental analysis (focusing on emotion detection) of different songs. 
