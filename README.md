@@ -1,4 +1,4 @@
-# Lyric Pulse: Mapping Sentiments in Music Lyrics
+# Lyric Pulse: Evaluating Emotion Recognition Models on Song Lyrics
 Testing sentiment analysis models using lyrics
 
 # Summary
@@ -21,10 +21,10 @@ Emotion Labels: 'amazement', 'calmness', 'joyful activation', 'nostalgia', 'powe
 
 We test four different sentiment analysis models that can be found on [Hugging Face](https://huggingface.co/). 
 
-# Model1: [roberta-base-go_emotions](https://huggingface.co/SamLowe/roberta-base-go_emotions?text=I+love+you)
+- Model1: [roberta-base-go_emotions](https://huggingface.co/SamLowe/roberta-base-go_emotions?text=I+love+you)
 
-# Model2: [emotion-english-distilroberta-base](https://huggingface.co/j-hartmann/emotion-english-distilroberta-base?text=This+movie+always+makes+me+cry..)
+- Model2: [emotion-english-distilroberta-base](https://huggingface.co/j-hartmann/emotion-english-distilroberta-base?text=This+movie+always+makes+me+cry..)
 
-# Model3: [distilbert-base-uncased-emotion](https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion?text=I+like+you.+I+love+you)
+- Model3: [distilbert-base-uncased-emotion](https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion?text=I+like+you.+I+love+you)
 
-# Model4: [t-5 base-finetuned-emotion](https://huggingface.co/mrm8488/t5-base-finetuned-emotion?text=I+wish+you+were+here+but+it+is+impossible)
+- Model4: [t-5 base-finetuned-emotion](https://huggingface.co/mrm8488/t5-base-finetuned-emotion?text=I+wish+you+were+here+but+it+is+impossible)
